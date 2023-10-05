@@ -1,4 +1,3 @@
-scripts/my_aws_cred.sh
 .terraform/*
 .terraform.lock.hcl
 terraform.tfstate*

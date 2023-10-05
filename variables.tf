@@ -25,16 +25,16 @@ variable "launch_ec2_jenkins" {
 }
 
 variable "launch_ec2_nexus" {
-  default   =  false
+  default   =  true
   type = bool
 }
 
 variable "launch_ec2_sonarqube" {
-  default   =  false
+  default   =  true
   type = bool
 }
 
-variable "launch_ec2_tomcat" {
+variable "launch_ec2_app" {
   default   =  false
   type = bool
 }
